@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Define a variable that will store the string
+
+stringVal = "Best school"
+for i in $StringVal(i=0, i<=10;,i++); do
+ echo $val
+done
