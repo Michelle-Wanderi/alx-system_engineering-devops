@@ -1,0 +1,54 @@
+#!/usr/bin/env bash
+# Print Best school 10 times to stdout but for the 9th iteration it displays Hi
+
+i=0
+if [ $i -eq 1 ]
+then
+    echo "Best School"
+fi
+
+if [ $i -eq 2 ]
+then
+    echo "Best School"
+fi
+
+if [ $i -eq 3 ]
+then
+    echo "Best School"
+fi
+
+if [ $i -eq 4 ]
+then
+    echo "Best School"
+fi
+
+if [ $i -eq 5 ]
+then
+    echo "Best School"
+fi
+
+if [ $i -eq 6 ]
+then
+    echo "Best School"
+fi
+
+if [ $i -eq 7 ]
+then
+    echo "Best School"
+fi
+
+if [ $i -eq 8 ]
+then
+    echo "Best School"
+fi
+
+if [ $i -eq 9 ]
+then
+    echo "Hi"
+fi
+
+if [ $i -eq 10 ]
+then
+    echo "Best School"
+fi
+
