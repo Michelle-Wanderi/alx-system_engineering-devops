@@ -5,6 +5,6 @@ counter=0
 
 until [ $counter -lt 10 ]
 do
-    echo "Best School"
+    echo "Best School";
     ((counter++))
 done
