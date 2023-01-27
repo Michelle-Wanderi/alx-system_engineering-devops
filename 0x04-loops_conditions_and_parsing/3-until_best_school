@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+# Print Best school 10 times to stdout using until loop

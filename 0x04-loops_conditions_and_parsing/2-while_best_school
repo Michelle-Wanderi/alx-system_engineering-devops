@@ -2,7 +2,7 @@
 # Print Best school 10 times to stdout using while loop
 
 i=0
-while [ $i -lt 10]
+while [ $i -lt 10 ]
 do
     echo "Best school"
 done
