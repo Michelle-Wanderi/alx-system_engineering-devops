@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# accepts a string as an argument, displays Usage: 5-is_the_host_on_the_network {IP_ADDRESS} if no argument passed
+# + ping the IP 5 times
