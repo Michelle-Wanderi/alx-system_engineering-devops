@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# configures an ubuntu erver with the below 
+# localhost resolves to 127.0.0.2
+# facebook.com resolves to 8.8.8.8.
+
+cp /etc/hosts ~/new.hosts
+
+sed -i 's/127. *$127.0.0.2 localhost\n8.8.8.8 facebook.com/' ~/new.hosts
+cp -f ~/new.hosts /etc/hosts
